@@ -43,8 +43,8 @@ int main(){
         int tmp=0;
         cin>>a[0]>>a[1]>>a[2];
         //cout<<"\n";
-        quickSort(a,0,2);
         while(1){
+          quickSort(a,0,2);
             if(a[1]==0) break;
             a[2]-=1;
             a[1]-=1;
