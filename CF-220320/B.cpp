@@ -12,6 +12,10 @@ int main(){
         string s;
         cin>>s;
         int p = s.size();
+        int r = 70000;
+        if(p>r){
+            s = s.substr(r-2000);
+        }
         for(int j=0;j<p;p--){ //standard array position
             for(int h=0;h<s.size();h++){ //pivot
                     //같은곳에 있지 않을 때
