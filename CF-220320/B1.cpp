@@ -20,6 +20,7 @@ int main(){
         for(int j=0;j<s.size();j++){
             t.push_back(s[j]);
         }   //t를 만들어줌
+        
         int p = t.size();
         for(int j=0;j<p;p--){ //standard array position
             for(int h=0;h<t.size();h++){ //pivot
