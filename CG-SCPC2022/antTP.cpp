@@ -58,13 +58,19 @@ int main(int argc, char **argv)
             dummy1[i] = h;
         }
         sort(values, values + ant); // values의 정렬배열 선언
-        while (dummy1 != values)
+        for (int j = 0; j < values)
         {
             for (int i = 0; i < ant; i++)
             {
                 if (values[i] != dummy1[i])
                 {
                     // find로 idx받아서 ans+ants[idx]해줘야 할 듯
+                    auto it = find(begin(values), end(values), dummy1[i]);
+                    int idx = distance(values, it); //인덱스 반환
+                    int tmp = dummy1[i];
+                    dummy1[i] = dummy1[idx];
+                    dummy1[idx] = tmp;
+                    Answer += (2 * abs(ants[idx] - ants[i]));
                 }
             }
         }
