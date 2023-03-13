@@ -15,6 +15,8 @@ int main()
             {
                 cin >> arr[i][j];
                 if (!arr[i][j])
+                {
+                }
             }
         }
         else
