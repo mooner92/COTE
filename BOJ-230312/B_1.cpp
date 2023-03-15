@@ -55,4 +55,4 @@ int main()
             cout << e[d] - e[sto] << '\n';
         }
     }
-}
+} //
