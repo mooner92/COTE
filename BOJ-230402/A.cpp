@@ -37,6 +37,6 @@ int main()
                 cout << "YONSEI";
                 break;
             }
-        }
+        } //
     }
 }
