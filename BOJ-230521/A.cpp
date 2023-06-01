@@ -21,6 +21,4 @@ int main()
         cout << "YES";
     else
         cout << "NO";
-} //
-////
-/////
+}
