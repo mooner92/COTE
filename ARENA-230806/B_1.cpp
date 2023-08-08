@@ -36,12 +36,10 @@ int main()
             s2.push_back(s);
         }
     }
-    cout << "----------\n";
-    for (int p = 0; p < s2.size(); p++)
+    if (n == 1)
     {
-        cout << s2[p] << "\n";
+        cout << s2[0];
     }
-    cout << "----------\n";
     if (k == 0)
     {
         for (int i = 0; i < n; i++)
