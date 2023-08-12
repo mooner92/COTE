@@ -42,4 +42,3 @@ int main()
     }
     cout << sum << " " << nsum;
 }
-////
