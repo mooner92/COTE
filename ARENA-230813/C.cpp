@@ -16,4 +16,3 @@ int main()
         vl.push_back(l);
     }
 }
-////////////
